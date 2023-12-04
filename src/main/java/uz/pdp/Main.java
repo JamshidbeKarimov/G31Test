@@ -19,6 +19,7 @@ public class Main {
 
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        System.out.println("This is from main");
         Utils.addMillion();
         while(true) {
             System.out.println("1. Sign in\t2. Sign up");
